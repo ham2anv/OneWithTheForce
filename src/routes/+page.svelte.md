@@ -7,6 +7,7 @@ layout: index
 import Card from "$lib/components/Card.svelte";
 import CardBox from "$lib/components/CardBox.svelte";
 import ImageFigure from "$lib/components/ImageFigure.svelte";
+import readTime from "$lib/readTime.js";
 </script>
 
 The year is 50 ABY &mdash; 15 years after the [Battle of Exegol] and the defeat
@@ -36,11 +37,13 @@ published in [Cthulhu Confidential] by Pelgrane Press.
 [GUMSHOE One-2-One]: https://pelgranepress.com/2015/09/09/gumshoe-one-2-one/ 'GUMSHOE One-2-One at Pelgrane Press'
 [Cthulhu Confidential]: https://pelgranepress.com/product/cthulhu-confidential/ 'Cthulhu Confidential at Pelgrane Press'
 
+## Rules
+
+- [Rules Quick Reference](/rules/reference)
+
 ## Episodes
 
-- [Episode 1]
-
-[Episode 1]: /episode-1
+- [Episode 1](/episode-1)
 
 <ImageFigure 
   caption="by Mike Winkelmann" 
@@ -49,3 +52,8 @@ published in [Cthulhu Confidential] by Pelgrane Press.
   href="https://commons.wikimedia.org/wiki/File:HEXAGONIA.jpg"
   title="HEXAGONIA at Wikimedia Commons"
 />
+
+> This work is based on the [GUMSHOE SRD], a product of Pelgrane Press, developed, written, and edited by Robin D. Laws with additional material by Kenneth Hite, and licensed for our use under the [Creative Commons Attribution 3.0 Unported license].
+
+[GUMSHOE SRD]: https://www.pelgranepress.com/index.php/the-gumshoe-system-reference-document/
+[Creative Commons Attribution 3.0 Unported license]: http://creativecommons.org/licenses/by/3.0/
