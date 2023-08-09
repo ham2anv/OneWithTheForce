@@ -36,6 +36,12 @@ published in [Cthulhu Confidential] by Pelgrane Press.
 [GUMSHOE One-2-One]: https://pelgranepress.com/2015/09/09/gumshoe-one-2-one/ 'GUMSHOE One-2-One at Pelgrane Press'
 [Cthulhu Confidential]: https://pelgranepress.com/product/cthulhu-confidential/ 'Cthulhu Confidential at Pelgrane Press'
 
+## Episodes
+
+- [Episode 1]
+
+[Episode 1]: /episode-1
+
 <ImageFigure 
   caption="by Mike Winkelmann" 
   alt="A futuristic skyline consisting of hexagon shaped buildings with a red light column in its center. A person on a platform in the foreground wearing a jacket with an anarchy symbol on its back watching down at the skyline." 
