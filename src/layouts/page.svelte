@@ -6,7 +6,7 @@
 <svelte:head><title>{title}</title></svelte:head>
 
 <nav class="breadcrumbs text-sm print:hidden">
-	<ul class="pl-0">
+	<ul class="pl-0 font-oswald uppercase">
 		<li><a href="/">Home</a></li>
 		{#if path}
 			{#each path as page}
