@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Serif+4:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.prose a > img {
+		@apply ring-2 ring-secondary ring-offset-2 ring-offset-base-100;
+	}
+
+	.prose figure img {
+		@apply my-0;
+	}
+}
