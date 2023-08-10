@@ -1,8 +1,11 @@
 <script>
 	import '../app.postcss';
-  import mermaid from 'mermaid';
+	import mermaid from 'mermaid';
 
-  mermaid.initialize({startOnLoad: false, fontFamily: "Oswald"});
+	mermaid.initialize({ 
+    startOnLoad: false, 
+    fontFamily: 'Oswald', 
+  });
 </script>
 
 <main

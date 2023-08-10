@@ -1,6 +1,9 @@
 <script>
-	export let title;
-	export let path;
+	export let title="One With the Force";
+	export let path=null;
+  export let data;
+  export let form;
+  export let layout;
 
 	import {onMount} from "svelte";
 	import readTime from "$lib/readTime.js";
@@ -20,7 +23,7 @@
 		{/if}
 		<li>{title}</li>
 	</ul>
-	{#if target}<div class="text-center my-4" title="Estimated reading time">📖 ~{readTime(target)} min.</div>{/if}
+	{#if target && readTime(target) > 0}<div class="text-center my-4" title="Estimated reading time">📖 ~{readTime(target)} min.</div>{/if}
 
 </nav>
 

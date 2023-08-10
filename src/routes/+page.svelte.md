@@ -7,7 +7,6 @@ layout: index
 import Card from "$lib/components/Card.svelte";
 import CardBox from "$lib/components/CardBox.svelte";
 import ImageFigure from "$lib/components/ImageFigure.svelte";
-import readTime from "$lib/readTime.js";
 </script>
 
 The year is 50 ABY &mdash; 15 years after the [Battle of Exegol] and the defeat
